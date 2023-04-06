@@ -20,9 +20,6 @@ jobs:
 
     - name: Git Checkout
       uses: actions/checkout@v3
-    
-    # Runs Sonar scanner on code base
-    - name: SonarQube Scan
 
     # Run Cypress Test
     - name: Run Cypress Test
