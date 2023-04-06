@@ -23,7 +23,6 @@ jobs:
     
     # Runs Sonar scanner on code base
     - name: SonarQube Scan
-      uses: sonarsource/sonarqube-scan-action@master
 
     # Run Cypress Test
     - name: Run Cypress Test
